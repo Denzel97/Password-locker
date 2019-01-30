@@ -15,7 +15,7 @@ class User:
         self.password = password
 
     # Init method up here
-    
+
     def save_user(self):
 
         '''
@@ -23,6 +23,7 @@ class User:
         '''
 
         User.user_list.append(self)
+
 
     def delete_user(self):
 
