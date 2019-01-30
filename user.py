@@ -63,6 +63,7 @@ class User:
 
         return False
 
+
     @classmethod
     def display_users(cls):
         '''
