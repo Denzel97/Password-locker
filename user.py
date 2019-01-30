@@ -15,6 +15,7 @@ class User:
         self.password = password
 
     # Init method up here
+    
     def save_user(self):
 
         '''
