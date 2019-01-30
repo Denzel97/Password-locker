@@ -23,6 +23,7 @@ def del_user(user):
     '''
     user.delete_user()
 
+
 def find_user(number):
     '''
     Function that finds a user by number and returns the user
