@@ -30,11 +30,13 @@ def find_user(number):
     '''
     return User.find_by_number(number)
 
+
 def check_existing_users(number):
     '''
     Function that check if a user exists with that number and return a Boolean
     '''
     return User.user_exist(number)
+
 
 def display_users():
     '''
