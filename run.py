@@ -73,8 +73,14 @@ def main():
             print("Email address ...")
             e_address = input()
 
+            print("Password ...")
+            password = input()
 
-            save_users(create_user(f_name,l_name,p_number,e_address)) # create and save new user.
+            print("confirm password ...")
+            password1 = input()
+
+
+            save_users(create_user(f_name,l_name,p_number,e_address,password)) # create and save new user.
             print ('\n')
             print(f"New User {f_name} {l_name} created")
             print ('\n')
